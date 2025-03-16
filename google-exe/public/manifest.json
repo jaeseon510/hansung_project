@@ -6,11 +6,8 @@
         "default_popup": "index.html"
     },
     "permissions":[
-        "scripting"
-    ],
-    "host_permissions":[
-        "http://*/*",
-        "https://*/*"
+        "scripting",
+        "tabs"
     ],
     "icons":{
         "32": "icon32.png"
