@@ -21,7 +21,7 @@ body {
 .logo-container {
   position: absolute;
   top: 10px;
-  left: 10px;
+  left: 15px;
 }
 
 .logo-container img {
@@ -47,18 +47,15 @@ body {
   transition: 0.3s;
   border: 2px solid #469ff399;
   
-  box-shadow: 4px 4px 10px #469ff399;
 }
 
 .button:hover {
   background: #f8f8ff;
-  box-shadow: 4px 4px 15px #469ff399;
   border: 2px solid #469ff399;
 }
 
 .button:active {
   background: #f8f8ff;
-  box-shadow: 4px 4px 15px #469ff399;
   border: 2px solid #469ff399;
 }
 
@@ -82,14 +79,15 @@ body {
 
 .search-container {
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 25px;
+  right: 15px;
   display: flex;
   align-items: center;
   background: white;
   padding: 5px;
   border-radius: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border: 2% black;
 }
 
 .search-input {

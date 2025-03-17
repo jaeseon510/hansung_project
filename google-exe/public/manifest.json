@@ -1,15 +1,25 @@
 {
     "manifest_version":3,
     "version":"1.0",
-    "name": "My Vite Extension",
+    "name": "HSU Portal",
+    "description": "한성대학교 포털을 더욱 편리하게 사용할 수 있도록 도와주는 확장 프로그램입니다.",
     "action":{
-        "default_popup": "index.html"
+        "default_popup": "index.html",
+        "default_icon": {
+        "16": "/icons/icon16.png",
+        "24": "/icons/icon24.png",
+        "32": "/icons/icon32.png"
+    }
     },
     "permissions":[
         "scripting",
         "tabs"
     ],
     "icons":{
-        "32": "icon32.png"
+        "16": "icons/icon16.png",
+        "32": "icons/icon32.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png",
+        "256": "icons/icon256.png"
     }
 }
