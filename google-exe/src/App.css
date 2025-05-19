@@ -3,20 +3,20 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-}
+}/*페이지의 전체적인 레이아웃*/
 
 .logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
-}
+}/*로고 이미지에 대한 스타일*/
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
-}
+}/*마우스를 올렸을때 그림자 효과*/
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
-}
+}/*로고 위에 손을 올렸을때 다른색상의 그림자 적용 but 현재는 안씀*/
 
 @keyframes logo-spin {
   from {
@@ -31,12 +31,12 @@
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
-}
+}/*사용자가 모션을 줄이도록 설정하지 않은 경우(no-perference) 두번째 테크에 무한 회전 애니메이션 but 이또한 현재는 쓰지않음*/
 
 .card {
   padding: 2em;
-}
+}/*콘텐츠 블록의 여백*/
 
 .read-the-docs {
   color: #888;
-}
+}/*문석읽기 링크에 글자색색*/
